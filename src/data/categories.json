@@ -1,0 +1,26 @@
+[
+  {
+    "id": "flex-vinyl-digital",
+    "slug": "flex-vinyl-digital",
+    "name": "Flex / Vinyl / Digital",
+    "description": "High-quality large-format prints including flex banners, vinyl wraps, digital standees, acrylic boards, and more for maximum brand visibility.",
+    "image": "/images/categories/flex-vinyl-digital.svg",
+    "icon": "Layers"
+  },
+  {
+    "id": "printing-items",
+    "slug": "printing-items",
+    "name": "Printing Items",
+    "description": "Professional offset and digital printing for all your corporate stationery, marketing collateral, packaging, and publishing needs.",
+    "image": "/images/categories/printing-items.svg",
+    "icon": "Printer"
+  },
+  {
+    "id": "promotional-items",
+    "slug": "promotional-items",
+    "name": "Promotional Items",
+    "description": "Custom branded merchandise and gifts — from apparel and drinkware to awards and office accessories — to keep your brand front and center.",
+    "image": "/images/categories/promotional-items.svg",
+    "icon": "Gift"
+  }
+]

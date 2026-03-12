@@ -1,0 +1,98 @@
+[
+    {
+        "id": "g1",
+        "title": "Corporate Backdrop — Pharma Summit 2025",
+        "category": "flex",
+        "type": "image",
+        "src": "/images/gallery/g1.jpg",
+        "thumbnail": "/images/gallery/g1.jpg"
+    },
+    {
+        "id": "g2",
+        "title": "Retail Glow Sign Board — Connaught Place",
+        "category": "installations",
+        "type": "image",
+        "src": "/images/gallery/g2.jpg",
+        "thumbnail": "/images/gallery/g2.jpg"
+    },
+    {
+        "id": "g3",
+        "title": "Premium Business Card Set",
+        "category": "printing",
+        "type": "image",
+        "src": "/images/gallery/g3.jpg",
+        "thumbnail": "/images/gallery/g3.jpg"
+    },
+    {
+        "id": "g4",
+        "title": "Corporate Event Standees & Banners",
+        "category": "flex",
+        "type": "image",
+        "src": "/images/gallery/g4.jpg",
+        "thumbnail": "/images/gallery/g4.jpg"
+    },
+    {
+        "id": "g5",
+        "title": "Branded T-shirts & Promotional Bags",
+        "category": "promotional",
+        "type": "image",
+        "src": "/images/gallery/g5.jpg",
+        "thumbnail": "/images/gallery/g5.jpg"
+    },
+    {
+        "id": "g6",
+        "title": "Trade Show Canopy Installation",
+        "category": "installations",
+        "type": "image",
+        "src": "/images/gallery/g6.jpg",
+        "thumbnail": "/images/gallery/g6.jpg"
+    },
+    {
+        "id": "g7",
+        "title": "Product Brochure — Tri-fold",
+        "category": "printing",
+        "type": "image",
+        "src": "/images/gallery/g7.jpg",
+        "thumbnail": "/images/gallery/g7.jpg"
+    },
+    {
+        "id": "g8",
+        "title": "Acrylic LED Letter Boards",
+        "category": "installations",
+        "type": "image",
+        "src": "/images/gallery/g8.jpg",
+        "thumbnail": "/images/gallery/g8.jpg"
+    },
+    {
+        "id": "g9",
+        "title": "Custom Mugs & Gifting Set",
+        "category": "promotional",
+        "type": "image",
+        "src": "/images/gallery/g9.jpg",
+        "thumbnail": "/images/gallery/g9.jpg"
+    },
+    {
+        "id": "g10",
+        "title": "Vehicle Wrap — Company Fleet",
+        "category": "flex",
+        "type": "image",
+        "src": "/images/gallery/g10.jpg",
+        "thumbnail": "/images/gallery/g10.jpg"
+    },
+    {
+        "id": "g11",
+        "title": "Office Diary & Calendar Set",
+        "category": "printing",
+        "type": "image",
+        "src": "/images/gallery/g11.jpg",
+        "thumbnail": "/images/gallery/g11.jpg"
+    },
+    {
+        "id": "g12",
+        "title": "Exhibition Backdrop Installation",
+        "category": "installations",
+        "type": "image",
+        "src": "/images/gallery/g12.jpg",
+        "thumbnail": "/images/gallery/g12.jpg"
+    }
+]

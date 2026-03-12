@@ -1,0 +1,10 @@
+
+> e5tt@0.1.0 lint
+> eslint
+
+
+E:\e5tt\src\app\products\[slug]\product-client-wrapper.tsx
+  14:57  warning  'category' is defined but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 1 problem (0 errors, 1 warning)
+

@@ -1,0 +1,62 @@
+[
+    {
+        "id": "r1",
+        "name": "Rajesh Sharma",
+        "company": "Sharma Enterprises",
+        "rating": 5,
+        "text": "Outstanding quality and super-fast delivery! Total Solutions printed our office branding materials — standees, backdrops, and business cards — all perfectly matched in colour. Meenakshi and her team are true professionals.",
+        "photo": null,
+        "video": null,
+        "audio": null,
+        "status": "approved",
+        "createdAt": "2025-11-10T08:30:00Z"
+    },
+    {
+        "id": "r2",
+        "name": "Priya Mehta",
+        "company": "Bloom Boutique",
+        "rating": 5,
+        "text": "We ordered custom paper bags and packaging boxes for our retail store. The finish was luxurious and our customers keep complimenting the packaging. Highly recommended for any brand looking to elevate their presentation.",
+        "photo": null,
+        "video": null,
+        "audio": null,
+        "status": "approved",
+        "createdAt": "2025-12-02T10:15:00Z"
+    },
+    {
+        "id": "r3",
+        "name": "Arun Kapoor",
+        "company": "Kapoor & Associates",
+        "rating": 5,
+        "text": "Total Solutions printed 500 business cards and letterheads for our law firm. The spot UV finish on the cards looks premium and the turnaround was just 2 days. Will definitely be back for more.",
+        "photo": null,
+        "video": null,
+        "audio": null,
+        "status": "approved",
+        "createdAt": "2026-01-15T12:00:00Z"
+    },
+    {
+        "id": "r4",
+        "name": "Deepika Nair",
+        "company": "FreshMart Retail",
+        "rating": 4,
+        "text": "Great printing company — their large format printing for our store frontage looks amazing. The glow sign board has completely transformed our shop's night-time visibility. Minor delays on one order but the result was worth it.",
+        "photo": null,
+        "video": null,
+        "audio": null,
+        "status": "approved",
+        "createdAt": "2026-01-28T09:45:00Z"
+    },
+    {
+        "id": "r5",
+        "name": "Vikram Singh",
+        "company": "TechVibe Solutions",
+        "rating": 5,
+        "text": "Ordered customised t-shirts and mugs for our annual company retreat. The sublimation printing was flawless — colours were vibrant even after multiple washes. Total Solutions is our go-to for all corporate gifting needs.",
+        "photo": null,
+        "video": null,
+        "audio": null,
+        "status": "approved",
+        "createdAt": "2026-02-05T14:20:00Z"
+    }
+]

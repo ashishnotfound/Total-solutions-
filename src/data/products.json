@@ -1,0 +1,1399 @@
+[
+    {
+        "id": "backdrops",
+        "slug": "backdrops",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Backdrops",
+        "shortDescription": "Premium large-format backdrops for events, exhibitions, and brand activations.",
+        "description": "Our backdrops are crafted from high-quality flex and vinyl materials with vivid, fade-resistant printing. Perfect for product launches, corporate events, photo booths, and retail displays. Available in custom sizes with matte or glossy finishes.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Star Flex / Frontlit Flex"
+            },
+            {
+                "label": "Finish",
+                "value": "Matte / Glossy"
+            },
+            {
+                "label": "Sizes",
+                "value": "Custom"
+            }
+        ],
+        "materials": [
+            "Star Flex",
+            "Frontlit Flex",
+            "Backlit Flex"
+        ],
+        "image": "/images/products/backdrop.jpg",
+        "gallery": [
+            "/images/products/backdrop.jpg",
+            "/images/products/backdrop-demo-1.png"
+        ],
+        "featured": true,
+        "price": null
+    },
+    {
+        "id": "banners",
+        "slug": "banners",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Banners",
+        "shortDescription": "Vibrant outdoor and indoor banners for promotions and branding.",
+        "description": "High-resolution digital banners in flex, vinyl, or fabric — designed for indoor and outdoor use. With grommets, pole pockets, or custom finishing options available.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Flex / Vinyl / Fabric"
+            },
+            {
+                "label": "Finish",
+                "value": "Hemmed edges with grommets"
+            },
+            {
+                "label": "Sizes",
+                "value": "Custom"
+            }
+        ],
+        "materials": [
+            "Flex",
+            "Vinyl",
+            "Fabric"
+        ],
+        "image": "/images/products/banner.jpg",
+        "gallery": [
+            "/images/products/banner.jpg",
+            "/images/products/banner-demo-1.png"
+        ],
+        "featured": true,
+        "price": null
+    },
+    {
+        "id": "demo-tents",
+        "slug": "demo-tents",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Demo Tents",
+        "shortDescription": "Custom-branded promotional tents for outdoor events and trade shows.",
+        "description": "Durable canopy and demo tents with full-color custom branding. Ideal for outdoor promotions, trade shows, and brand activation events.",
+        "specifications": [
+            {
+                "label": "Sizes",
+                "value": "8x8, 10x10, 10x20 ft"
+            },
+            {
+                "label": "Material",
+                "value": "Polyester / Aluminium frame"
+            }
+        ],
+        "materials": [
+            "Polyester fabric",
+            "Aluminium frame"
+        ],
+        "image": "/images/products/demo-tent.jpg",
+        "gallery": [
+            "/images/products/demo-tent.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "canopies",
+        "slug": "canopies",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Canopies",
+        "shortDescription": "Branded canopies for outdoor events, fairs, and exhibitions.",
+        "description": "Full-color custom printed canopies with sturdy metal frames. Easy to assemble and transport. Suitable for all weather conditions.",
+        "specifications": [
+            {
+                "label": "Sizes",
+                "value": "Custom"
+            },
+            {
+                "label": "Frame",
+                "value": "Powder-coated steel"
+            }
+        ],
+        "materials": [
+            "Polyester",
+            "Steel frame"
+        ],
+        "image": "/images/products/canopy.jpg",
+        "gallery": [
+            "/images/products/canopy.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "flex-vinyl-prints",
+        "slug": "flex-vinyl-prints",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Flex / Vinyl Prints",
+        "shortDescription": "Versatile large-format flex and vinyl prints for any application.",
+        "description": "From hoardings to shop fascias, our flex and vinyl prints deliver bold, weather-resistant graphics. Available in standard and custom sizes with various lamination options.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Frontlit / Backlit Flex, Vinyl"
+            },
+            {
+                "label": "Resolution",
+                "value": "Up to 1440 dpi"
+            }
+        ],
+        "materials": [
+            "Frontlit Flex",
+            "Backlit Flex",
+            "Vinyl"
+        ],
+        "image": "/images/products/flex-print.jpg",
+        "gallery": [
+            "/images/products/flex-print.jpg"
+        ],
+        "featured": true,
+        "price": null
+    },
+    {
+        "id": "boards-iron-wooden",
+        "slug": "boards-iron-wooden",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Boards (Iron / Wooden)",
+        "shortDescription": "Durable iron and wooden boards with custom printed vinyls or flex.",
+        "description": "Robust signage boards available in iron and wooden substrates, ideal for shop fronts, offices, and factories. Custom sizes with printed and laminated surfaces.",
+        "specifications": [
+            {
+                "label": "Substrate",
+                "value": "MS Iron / Plywood / MDF"
+            },
+            {
+                "label": "Finish",
+                "value": "Vinyl pasted / Flex stretched"
+            }
+        ],
+        "materials": [
+            "MS Iron",
+            "Plywood",
+            "MDF"
+        ],
+        "image": "/images/products/board.jpg",
+        "gallery": [
+            "/images/products/board.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "sunpack-dangler",
+        "slug": "sunpack-dangler",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Sunpack Dangler",
+        "shortDescription": "Lightweight sunpack danglers for in-store promotions and retail display.",
+        "description": "Cost-effective and visually impactful, sunpack danglers are printed on rigid sunpack sheets and used for product promotion in retail environments.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Sunpack Sheet"
+            },
+            {
+                "label": "Thickness",
+                "value": "3mm / 5mm"
+            }
+        ],
+        "materials": [
+            "Sunpack"
+        ],
+        "image": "/images/products/sunpack.jpg",
+        "gallery": [
+            "/images/products/sunpack.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "digital-star-standees",
+        "slug": "digital-star-standees",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Digital & Star Standees",
+        "shortDescription": "Eye-catching life-size standees for marketing and events.",
+        "description": "Full-color life-size digital and star standees printed on high-quality substrates. Perfect for events, retail stores, and brand awareness campaigns.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Sunpack / Corrugated Plastic"
+            },
+            {
+                "label": "Finish",
+                "value": "Gloss Lamination"
+            }
+        ],
+        "materials": [
+            "Sunpack",
+            "Corrugated plastic"
+        ],
+        "image": "/images/products/standee.jpg",
+        "gallery": [
+            "/images/products/standee.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "canvas-prints",
+        "slug": "canvas-prints",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Canvas Prints",
+        "shortDescription": "Premium canvas prints for decor, portraits, and artistic displays.",
+        "description": "Museum-quality canvas prints with archival inks that resist fading. Stretched over timber frames and ready to hang. Perfect for offices, hotels, and galleries.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Artist Canvas"
+            },
+            {
+                "label": "Frame",
+                "value": "Kiln-dried pine"
+            },
+            {
+                "label": "Sizes",
+                "value": "Custom"
+            }
+        ],
+        "materials": [
+            "Artist canvas",
+            "Pine frame"
+        ],
+        "image": "/images/products/canvas.jpg",
+        "gallery": [
+            "/images/products/canvas.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "direct-sunboard-printing",
+        "slug": "direct-sunboard-printing",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Direct Sunboard Printing",
+        "shortDescription": "UV-direct printing on sunboard for crisp, vibrant signage.",
+        "description": "High-resolution UV direct printing on sunboard sheets for sharp, vibrant signage. Suitable for both indoor and outdoor use with no lamination required.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Sunboard (Expanded PVC)"
+            },
+            {
+                "label": "Thickness",
+                "value": "3mm / 5mm / 8mm"
+            }
+        ],
+        "materials": [
+            "Expanded PVC / Sunboard"
+        ],
+        "image": "/images/products/sunboard.jpg",
+        "gallery": [
+            "/images/products/sunboard.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "backlit-flex",
+        "slug": "backlit-flex",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Backlit Flex",
+        "shortDescription": "Translucent backlit flex for illuminated lightbox displays.",
+        "description": "Premium backlit flex prints designed for illuminated signs and lightboxes. Provides uniform light diffusion and vibrant colours even in low light conditions.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Backlit Translucent Flex"
+            },
+            {
+                "label": "Resolution",
+                "value": "1440 dpi"
+            }
+        ],
+        "materials": [
+            "Backlit Flex"
+        ],
+        "image": "/images/products/backlit.jpg",
+        "gallery": [
+            "/images/products/backlit.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "glow-sign-boards",
+        "slug": "glow-sign-boards",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Glow Sign Boards",
+        "shortDescription": "Illuminated glow sign boards for maximum night-time visibility.",
+        "description": "Premium backlit glow sign boards with aluminium frames and LED/CFL illumination. Ideal for shops, restaurants, and corporate offices seeking 24-hour visibility.",
+        "specifications": [
+            {
+                "label": "Frame",
+                "value": "Aluminium"
+            },
+            {
+                "label": "Lighting",
+                "value": "LED / CFL"
+            },
+            {
+                "label": "Sizes",
+                "value": "Custom"
+            }
+        ],
+        "materials": [
+            "Aluminium",
+            "Backlit Flex",
+            "LED"
+        ],
+        "image": "/images/products/glow-sign.jpg",
+        "gallery": [
+            "/images/products/glow-sign.jpg"
+        ],
+        "featured": true,
+        "price": null
+    },
+    {
+        "id": "acrylic-light-letter-boards",
+        "slug": "acrylic-light-letter-boards",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Acrylic Light & Letter Boards",
+        "shortDescription": "Premium acrylic LED illuminated letter and logo signage.",
+        "description": "Individually crafted acrylic letters and shapes with internal LED lighting. Creates a premium, 3D look for receptions, storefronts, and corporate branding walls.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Cast Acrylic"
+            },
+            {
+                "label": "Lighting",
+                "value": "LED"
+            },
+            {
+                "label": "Thickness",
+                "value": "3mm – 12mm"
+            }
+        ],
+        "materials": [
+            "Cast Acrylic",
+            "LED"
+        ],
+        "image": "/images/products/acrylic-letter.jpg",
+        "gallery": [
+            "/images/products/acrylic-letter.jpg"
+        ],
+        "featured": true,
+        "price": null
+    },
+    {
+        "id": "acrylic-sandwich-boards",
+        "slug": "acrylic-sandwich-boards",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Acrylic Sandwich Boards",
+        "shortDescription": "Double-sided acrylic sandwich boards for premium indoor signage.",
+        "description": "Sleek acrylic sandwich boards with printed inserts for directories, menu boards, and office signage. Elegant appearance with easy content updates.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Clear Acrylic"
+            },
+            {
+                "label": "Thickness",
+                "value": "5mm + 5mm"
+            }
+        ],
+        "materials": [
+            "Clear Acrylic"
+        ],
+        "image": "/images/products/acrylic-sandwich.jpg",
+        "gallery": [
+            "/images/products/acrylic-sandwich.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "one-way-vision",
+        "slug": "one-way-vision",
+        "categoryId": "flex-vinyl-digital",
+        "name": "One Way Vision",
+        "shortDescription": "Perforated vinyl for window graphics with inside visibility.",
+        "description": "Perforated vinyl that lets you see out while displaying full-colour graphics outside. Popular for retail windows, vehicle glazing, and building wraps.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Perforated Vinyl"
+            },
+            {
+                "label": "Perforation",
+                "value": "50/50"
+            }
+        ],
+        "materials": [
+            "Perforated Vinyl"
+        ],
+        "image": "/images/products/one-way.jpg",
+        "gallery": [
+            "/images/products/one-way.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "sun-board-vinyl",
+        "slug": "sun-board-vinyl",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Sun Board with Vinyl",
+        "shortDescription": "Sunboard sheets with high-quality vinyl overlays for durable signage.",
+        "description": "Rigid sunboard substrate with precision-cut or printed vinyl overlay. Great for outdoor directional signs, retail displays, and event signage.",
+        "specifications": [
+            {
+                "label": "Substrate",
+                "value": "Sunboard"
+            },
+            {
+                "label": "Overlay",
+                "value": "Cast / Calendered Vinyl"
+            }
+        ],
+        "materials": [
+            "Sunboard",
+            "Vinyl"
+        ],
+        "image": "/images/products/sun-board-vinyl.jpg",
+        "gallery": [
+            "/images/products/sun-board-vinyl.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "rollup-cutout-standees",
+        "slug": "rollup-cutout-standees",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Roll-up & Cut-out Standees",
+        "shortDescription": "Portable roll-up banners and custom cut-out standees.",
+        "description": "Retractable roll-up banners perfect for exhibitions, conferences, and retail promotions. Also available as custom-shape cut-out standees for impactful in-store displays.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Premium PET / Vinyl"
+            },
+            {
+                "label": "Stand",
+                "value": "Aluminium"
+            }
+        ],
+        "materials": [
+            "PET Film",
+            "Vinyl",
+            "Aluminium"
+        ],
+        "image": "/images/products/rollup.jpg",
+        "gallery": [
+            "/images/products/rollup.jpg"
+        ],
+        "featured": true,
+        "price": null
+    },
+    {
+        "id": "promotional-umbrella",
+        "slug": "promotional-umbrella",
+        "categoryId": "flex-vinyl-digital",
+        "name": "Promotional Umbrella",
+        "shortDescription": "Custom branded promotional umbrellas for events and gifting.",
+        "description": "Full-panel digital printing on high-quality umbrellas. An excellent mobile branding tool for outdoor events, corporate gifting, and trade shows.",
+        "specifications": [
+            {
+                "label": "Panel",
+                "value": "8-panel / Full print"
+            },
+            {
+                "label": "Sizes",
+                "value": "21\" – 27\""
+            }
+        ],
+        "materials": [
+            "Nylon / Pongee fabric"
+        ],
+        "image": "/images/products/umbrella.jpg",
+        "gallery": [
+            "/images/products/umbrella.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "business-cards",
+        "slug": "business-cards",
+        "categoryId": "printing-items",
+        "name": "Business Cards",
+        "shortDescription": "Premium business cards with spot UV, foiling, and emboss options.",
+        "description": "Make a lasting first impression with our premium business cards. Available in standard and custom shapes, with finishes including matte, gloss, soft-touch, spot UV, and foil stamping.",
+        "specifications": [
+            {
+                "label": "Standard Size",
+                "value": "3.5\" x 2\""
+            },
+            {
+                "label": "Stock",
+                "value": "300gsm – 600gsm"
+            },
+            {
+                "label": "Finish",
+                "value": "Matte / Gloss / Spot UV / Foil"
+            }
+        ],
+        "materials": [
+            "Art Paper",
+            "Board"
+        ],
+        "image": "/images/products/business-card.jpg",
+        "gallery": [
+            "/images/products/business-card.jpg"
+        ],
+        "featured": true,
+        "price": null
+    },
+    {
+        "id": "letterheads",
+        "slug": "letterheads",
+        "categoryId": "printing-items",
+        "name": "Letterheads",
+        "shortDescription": "Professional corporate letterheads for official communications.",
+        "description": "Branded letterheads printed on premium bond or art paper. Available in A4 and custom sizes with up to full-colour printing.",
+        "specifications": [
+            {
+                "label": "Size",
+                "value": "A4 / Custom"
+            },
+            {
+                "label": "Stock",
+                "value": "70gsm – 120gsm Bond"
+            }
+        ],
+        "materials": [
+            "Bond Paper",
+            "Art Paper"
+        ],
+        "image": "/images/products/letterhead.jpg",
+        "gallery": [
+            "/images/products/letterhead.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "envelopes",
+        "slug": "envelopes",
+        "categoryId": "printing-items",
+        "name": "Envelopes",
+        "shortDescription": "Custom branded envelopes for professional correspondence.",
+        "description": "Printed envelopes in DL, C4, C5, and custom sizes. Available in white, cream, and coloured stocks with full-colour digital or offset printing.",
+        "specifications": [
+            {
+                "label": "Sizes",
+                "value": "DL / C4 / C5 / Custom"
+            },
+            {
+                "label": "Stock",
+                "value": "90gsm – 120gsm"
+            }
+        ],
+        "materials": [
+            "Cartridge Paper",
+            "Art Paper"
+        ],
+        "image": "/images/products/envelope.jpg",
+        "gallery": [
+            "/images/products/envelope.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "files-folders",
+        "slug": "files-folders",
+        "categoryId": "printing-items",
+        "name": "Files & Folders",
+        "shortDescription": "Custom branded document folders and presentation files.",
+        "description": "Presentation folders and document files with full-colour printing and custom die-cuts. Available in A4 and A5 sizes with various pocket configurations.",
+        "specifications": [
+            {
+                "label": "Size",
+                "value": "A4 / A5"
+            },
+            {
+                "label": "Stock",
+                "value": "300gsm Art Board"
+            },
+            {
+                "label": "Finish",
+                "value": "Gloss / Matte Lamination"
+            }
+        ],
+        "materials": [
+            "Art Board"
+        ],
+        "image": "/images/products/folder.jpg",
+        "gallery": [
+            "/images/products/folder.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "flyers-brochures",
+        "slug": "flyers-brochures",
+        "categoryId": "printing-items",
+        "name": "Flyers / Pamphlets / Brochures",
+        "shortDescription": "Impactful marketing flyers, pamphlets, and multi-page brochures.",
+        "description": "From single-sheet flyers to multi-fold brochures, we deliver sharp, vibrant print marketing materials. Various folding options available including bi-fold, tri-fold, and gate-fold.",
+        "specifications": [
+            {
+                "label": "Sizes",
+                "value": "A4 / A5 / DL / Custom"
+            },
+            {
+                "label": "Stock",
+                "value": "130gsm – 250gsm Art"
+            },
+            {
+                "label": "Folds",
+                "value": "Bi-fold / Tri-fold / Gate-fold"
+            }
+        ],
+        "materials": [
+            "Coated Art Paper"
+        ],
+        "image": "/images/products/brochure.jpg",
+        "gallery": [
+            "/images/products/brochure.jpg"
+        ],
+        "featured": true,
+        "price": null
+    },
+    {
+        "id": "catalogues-books",
+        "slug": "catalogues-books",
+        "categoryId": "printing-items",
+        "name": "Catalogues / Books / Magazines",
+        "shortDescription": "Professionally bound catalogues, books, and corporate magazines.",
+        "description": "From product catalogues to corporate annual reports, we produce high-quality bound publications with saddle stitch, perfect bind, or spiral binding options.",
+        "specifications": [
+            {
+                "label": "Binding",
+                "value": "Saddle Stitch / Perfect Bind / Spiral"
+            },
+            {
+                "label": "Cover Stock",
+                "value": "300gsm Art Board"
+            },
+            {
+                "label": "Inner Stock",
+                "value": "130gsm Art Paper"
+            }
+        ],
+        "materials": [
+            "Coated Art Paper",
+            "Art Board"
+        ],
+        "image": "/images/products/catalogue.jpg",
+        "gallery": [
+            "/images/products/catalogue.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "calendars",
+        "slug": "calendars",
+        "categoryId": "printing-items",
+        "name": "Wall & Table Calendars",
+        "shortDescription": "Custom branded wall calendars and desk calendars.",
+        "description": "Full-colour custom calendars for corporate gifting and marketing. Available as wall calendars, desk calendars, and spiral-bound planners with your brand imagery.",
+        "specifications": [
+            {
+                "label": "Options",
+                "value": "Wall / Desk / Spiral Planner"
+            },
+            {
+                "label": "Pages",
+                "value": "12 + Cover"
+            },
+            {
+                "label": "Stock",
+                "value": "130gsm – 170gsm Art"
+            }
+        ],
+        "materials": [
+            "Coated Art Paper"
+        ],
+        "image": "/images/products/calendar.jpg",
+        "gallery": [
+            "/images/products/calendar.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "diaries-planners",
+        "slug": "diaries-planners",
+        "categoryId": "printing-items",
+        "name": "Diaries / Planners",
+        "shortDescription": "Premium branded diaries and planners for executives and teams.",
+        "description": "Hardcover and softcover branded diaries and planners — the perfect corporate gift. Available in A4, A5, and B5 sizes with ruled, dotted, or blank pages.",
+        "specifications": [
+            {
+                "label": "Sizes",
+                "value": "A4 / A5 / B5"
+            },
+            {
+                "label": "Cover",
+                "value": "Hardcover / Softcover"
+            },
+            {
+                "label": "Binding",
+                "value": "Spiral / Sewn"
+            }
+        ],
+        "materials": [
+            "Rexine",
+            "Art Paper"
+        ],
+        "image": "/images/products/diary.jpg",
+        "gallery": [
+            "/images/products/diary.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "greeting-cards",
+        "slug": "greeting-cards",
+        "categoryId": "printing-items",
+        "name": "Greeting / Invitation / Wedding Cards",
+        "shortDescription": "Luxurious greeting cards, invitations, and bespoke wedding stationery.",
+        "description": "From festive greeting cards to elaborate wedding invitations, we bring your celebrations to life with premium paper, foil, and embossing options.",
+        "specifications": [
+            {
+                "label": "Stock",
+                "value": "300gsm – 600gsm"
+            },
+            {
+                "label": "Finish",
+                "value": "Foil / Emboss / Die-cut"
+            }
+        ],
+        "materials": [
+            "Art Board",
+            "Specialty Paper"
+        ],
+        "image": "/images/products/greeting-card.jpg",
+        "gallery": [
+            "/images/products/greeting-card.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "danglers-cutouts",
+        "slug": "danglers-cutouts",
+        "categoryId": "printing-items",
+        "name": "Danglers & Cutouts",
+        "shortDescription": "Custom shaped danglers and cutouts for retail and display.",
+        "description": "Eye-catching printed danglers and custom-shape cutouts for retail environments and exhibitions. Available in various stocks with die-cutting as required.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Art Board / Sunpack"
+            },
+            {
+                "label": "Finish",
+                "value": "Gloss / Matte Lamination"
+            }
+        ],
+        "materials": [
+            "Art Board",
+            "Sunpack"
+        ],
+        "image": "/images/products/dangler.jpg",
+        "gallery": [
+            "/images/products/dangler.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "posters-stickers",
+        "slug": "posters-stickers",
+        "categoryId": "printing-items",
+        "name": "Posters / Stickers / Labels",
+        "shortDescription": "High-impact posters and custom stickers and labels for every need.",
+        "description": "From large-format posters to precision-cut stickers and product labels. Available on a wide range of paper and vinyl stocks with digital or offset printing.",
+        "specifications": [
+            {
+                "label": "Materials",
+                "value": "Art Paper / Vinyl / PP"
+            },
+            {
+                "label": "Finish",
+                "value": "Gloss / Matte / Metallic"
+            }
+        ],
+        "materials": [
+            "Art Paper",
+            "Vinyl",
+            "PP"
+        ],
+        "image": "/images/products/sticker.jpg",
+        "gallery": [
+            "/images/products/sticker.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "paper-bags-boxes",
+        "slug": "paper-bags-boxes",
+        "categoryId": "printing-items",
+        "name": "Paper Bags & Boxes",
+        "shortDescription": "Custom branded paper bags and gift boxes for retail and gifting.",
+        "description": "Premium custom paper bags and rigid gift boxes with full-colour printing. Perfect for retail, e-commerce packaging, and corporate gifting.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Art Board / Kraft"
+            },
+            {
+                "label": "Handle",
+                "value": "Ribbon / Twisted Paper"
+            }
+        ],
+        "materials": [
+            "Art Board",
+            "Kraft Paper"
+        ],
+        "image": "/images/products/paper-bag.jpg",
+        "gallery": [
+            "/images/products/paper-bag.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "packaging-materials",
+        "slug": "packaging-materials",
+        "categoryId": "printing-items",
+        "name": "Packaging Materials",
+        "shortDescription": "End-to-end custom packaging solutions for all industries.",
+        "description": "Complete packaging solutions including corrugated boxes, mono cartons, and specialty packaging. We handle pre-press, printing, lamination, die-cutting, and assembly in-house.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Corrugated / Kraft / Art Board"
+            },
+            {
+                "label": "Processes",
+                "value": "Printing, Lamination, Die-cutting, Assembly"
+            }
+        ],
+        "materials": [
+            "Corrugated Board",
+            "Kraft",
+            "Art Board"
+        ],
+        "image": "/images/products/packaging.jpg",
+        "gallery": [
+            "/images/products/packaging.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "garment-tags",
+        "slug": "garment-tags",
+        "categoryId": "printing-items",
+        "name": "Garment Tags & Boxes",
+        "shortDescription": "Custom branded garment tags, swing tags, and apparel boxes.",
+        "description": "Beautifully designed garment tags and retail boxes for fashion and lifestyle brands. Full-colour printing with premium finishes and custom shapes.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Art Board / Kraft"
+            },
+            {
+                "label": "Finish",
+                "value": "Spot UV / Foil / Emboss"
+            }
+        ],
+        "materials": [
+            "Art Board",
+            "Kraft Paper"
+        ],
+        "image": "/images/products/garment-tag.jpg",
+        "gallery": [
+            "/images/products/garment-tag.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "pharmaceutical-boxes",
+        "slug": "pharmaceutical-boxes",
+        "categoryId": "printing-items",
+        "name": "Pharmaceutical Boxes",
+        "shortDescription": "Compliant, high-quality pharmaceutical and medical packaging.",
+        "description": "Precision-printed pharmaceutical cartons and boxes meeting industry standards. Available with serialization, barcodes, and tamper-evident features.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "SBS Board / Duplex"
+            },
+            {
+                "label": "Compliance",
+                "value": "Pharma grade printing"
+            }
+        ],
+        "materials": [
+            "SBS Board",
+            "Duplex Board"
+        ],
+        "image": "/images/products/pharma-box.jpg",
+        "gallery": [
+            "/images/products/pharma-box.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "training-manuals",
+        "slug": "training-manuals",
+        "categoryId": "printing-items",
+        "name": "Training Manuals",
+        "shortDescription": "Professionally printed training manuals and corporate handbooks.",
+        "description": "Custom training manuals, employee handbooks, and educational materials. Printed in full colour or black and white, with various binding options.",
+        "specifications": [
+            {
+                "label": "Binding",
+                "value": "Spiral / Perfect Bind / Staple"
+            },
+            {
+                "label": "Pages",
+                "value": "Custom"
+            }
+        ],
+        "materials": [
+            "Bond Paper",
+            "Art Paper"
+        ],
+        "image": "/images/products/manual.jpg",
+        "gallery": [
+            "/images/products/manual.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "tshirts-caps",
+        "slug": "tshirts-caps",
+        "categoryId": "promotional-items",
+        "name": "T-Shirts & Caps",
+        "shortDescription": "Custom branded apparel — t-shirts, polo shirts, and caps.",
+        "description": "Full-colour or embroidered printing on quality cotton and polyester tees, polo shirts, and caps. Perfect for corporate events, brand uniforms, and promotional campaigns.",
+        "specifications": [
+            {
+                "label": "Print Method",
+                "value": "Screen Print / DTG / Embroidery"
+            },
+            {
+                "label": "Fabric",
+                "value": "Cotton / Polyester / Blended"
+            }
+        ],
+        "materials": [
+            "Cotton",
+            "Polyester"
+        ],
+        "image": "/images/products/tshirt.jpg",
+        "gallery": [
+            "/images/products/tshirt.jpg"
+        ],
+        "featured": true,
+        "price": null
+    },
+    {
+        "id": "personalized-pens",
+        "slug": "personalized-pens",
+        "categoryId": "promotional-items",
+        "name": "Personalized Pens",
+        "shortDescription": "Premium branded pens for corporate gifting and promotions.",
+        "description": "Branded pens in metal, plastic, and eco-friendly materials. Laser engraving, pad printing, and screen printing available. Perfect for bulk corporate gifting.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Metal / Plastic / Eco"
+            },
+            {
+                "label": "Print",
+                "value": "Laser Engraving / Pad Print"
+            }
+        ],
+        "materials": [
+            "Metal",
+            "Plastic"
+        ],
+        "image": "/images/products/pen.jpg",
+        "gallery": [
+            "/images/products/pen.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "mugs-bottles",
+        "slug": "mugs-bottles",
+        "categoryId": "promotional-items",
+        "name": "Mugs & Water Bottles",
+        "shortDescription": "Custom branded mugs and water bottles — desk essentials with impact.",
+        "description": "Full-wrap sublimation printing on ceramic mugs, travel mugs, and stainless steel water bottles. Popular for employee gifting, client gifts, and promotional campaigns.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Ceramic / SS / Plastic"
+            },
+            {
+                "label": "Print",
+                "value": "Sublimation / Screen Print"
+            }
+        ],
+        "materials": [
+            "Ceramic",
+            "Stainless Steel"
+        ],
+        "image": "/images/products/mug.jpg",
+        "gallery": [
+            "/images/products/mug.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "id-cards",
+        "slug": "id-cards",
+        "categoryId": "promotional-items",
+        "name": "ID Cards",
+        "shortDescription": "Custom ID cards for employees, events, and institutions.",
+        "description": "Full-colour ID cards with optional lamination, barcodes, magnetic stripes, and RFID chips. Available in PVC and eco-friendly biodegradable materials.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "PVC / Bio-degradable"
+            },
+            {
+                "label": "Options",
+                "value": "Barcode / Magnetic stripe / RFID"
+            }
+        ],
+        "materials": [
+            "PVC"
+        ],
+        "image": "/images/products/id-card.jpg",
+        "gallery": [
+            "/images/products/id-card.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "holders-lanyards",
+        "slug": "holders-lanyards",
+        "categoryId": "promotional-items",
+        "name": "Holders & Lanyards",
+        "shortDescription": "Custom branded ID card holders and lanyards.",
+        "description": "Branded lanyards in polyester, nylon, or woven materials with custom ID card holders. Great for events, conferences, and employee identification.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Polyester / Nylon / Woven"
+            },
+            {
+                "label": "Width",
+                "value": "10mm / 15mm / 20mm"
+            }
+        ],
+        "materials": [
+            "Polyester",
+            "Nylon"
+        ],
+        "image": "/images/products/lanyard.jpg",
+        "gallery": [
+            "/images/products/lanyard.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "paper-weights",
+        "slug": "paper-weights",
+        "categoryId": "promotional-items",
+        "name": "Paper Weights",
+        "shortDescription": "Branded acrylic and glass paperweights for executive gifting.",
+        "description": "Elegant branded paperweights in acrylic, glass, and crystal. Available with embedded printing, laser engraving, and custom shapes for premium corporate gifting.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Acrylic / Glass / Crystal"
+            },
+            {
+                "label": "Print",
+                "value": "Digital embed / Laser Engrave"
+            }
+        ],
+        "materials": [
+            "Acrylic",
+            "Glass"
+        ],
+        "image": "/images/products/paperweight.jpg",
+        "gallery": [
+            "/images/products/paperweight.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "coasters",
+        "slug": "coasters",
+        "categoryId": "promotional-items",
+        "name": "Coasters",
+        "shortDescription": "Custom branded coasters in cork, MDF, and acrylic.",
+        "description": "Functional and stylish branded coasters in cork, MDF, acrylic, and rubber. Perfect for hospitality, office, and corporate gifting.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Cork / MDF / Acrylic / Rubber"
+            },
+            {
+                "label": "Print",
+                "value": "Full colour / Laser Engrave"
+            }
+        ],
+        "materials": [
+            "Cork",
+            "MDF",
+            "Acrylic"
+        ],
+        "image": "/images/products/coaster.jpg",
+        "gallery": [
+            "/images/products/coaster.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "trophies-keychains",
+        "slug": "trophies-keychains",
+        "categoryId": "promotional-items",
+        "name": "Trophies & Key Chains",
+        "shortDescription": "Custom trophies, awards, and branded keychains.",
+        "description": "Premium acrylic, glass, and metal trophies and awards with laser engraving. Also custom branded keychains in metal, acrylic, and leather for events and gifting.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Acrylic / Glass / Metal"
+            },
+            {
+                "label": "Engraving",
+                "value": "Laser / UV Print"
+            }
+        ],
+        "materials": [
+            "Acrylic",
+            "Glass",
+            "Metal"
+        ],
+        "image": "/images/products/trophy.jpg",
+        "gallery": [
+            "/images/products/trophy.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "certificates",
+        "slug": "certificates",
+        "categoryId": "promotional-items",
+        "name": "Certificates",
+        "shortDescription": "Professionally designed and printed certificates and awards.",
+        "description": "Custom certificates of achievement, participation, and appreciation. Premium paper stocks, gold/silver foil borders, embossing, and lamination available.",
+        "specifications": [
+            {
+                "label": "Size",
+                "value": "A4 / A3 / Custom"
+            },
+            {
+                "label": "Finish",
+                "value": "Foil Border / Emboss / Laminate"
+            }
+        ],
+        "materials": [
+            "Premium Bond",
+            "Art Board"
+        ],
+        "image": "/images/products/certificate.jpg",
+        "gallery": [
+            "/images/products/certificate.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "photo-frames",
+        "slug": "photo-frames",
+        "categoryId": "promotional-items",
+        "name": "Photo Frames",
+        "shortDescription": "Custom printed and branded photo frames for corporate gifting.",
+        "description": "Personalised photo frames in acrylic, wood, and metal. Popular for employee recognition, customer appreciation gifts, and event souvenirs.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Acrylic / Wood / Metal"
+            },
+            {
+                "label": "Sizes",
+                "value": "4x6, 5x7, 8x10, Custom"
+            }
+        ],
+        "materials": [
+            "Acrylic",
+            "Wood",
+            "Metal"
+        ],
+        "image": "/images/products/photo-frame.jpg",
+        "gallery": [
+            "/images/products/photo-frame.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "badges-nameplates",
+        "slug": "badges-nameplates",
+        "categoryId": "promotional-items",
+        "name": "Badges & Name Plates",
+        "shortDescription": "Custom metal, acrylic, and enamel badges and nameplates.",
+        "description": "Professionally crafted badges and nameplates for offices, uniforms, and events. Available in metal, acrylic, and brass with various mounting options.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Metal / Acrylic / Brass"
+            },
+            {
+                "label": "Mounting",
+                "value": "Pin / Magnetic / Screw"
+            }
+        ],
+        "materials": [
+            "Metal",
+            "Acrylic",
+            "Brass"
+        ],
+        "image": "/images/products/badge.jpg",
+        "gallery": [
+            "/images/products/badge.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "ss-acrylic-plates",
+        "slug": "ss-acrylic-plates",
+        "categoryId": "promotional-items",
+        "name": "SS & Acrylic Plates",
+        "shortDescription": "Stainless steel and acrylic plates for offices and buildings.",
+        "description": "Premium stainless steel and acrylic signage plates for corporate receptions, office directories, and building facades. Precision laser-cut with engraving or printed inserts.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "SS 304 / Cast Acrylic"
+            },
+            {
+                "label": "Finish",
+                "value": "Brushed / Mirror / UV Print"
+            }
+        ],
+        "materials": [
+            "Stainless Steel",
+            "Acrylic"
+        ],
+        "image": "/images/products/ss-plate.jpg",
+        "gallery": [
+            "/images/products/ss-plate.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "school-office-bags",
+        "slug": "school-office-bags",
+        "categoryId": "promotional-items",
+        "name": "School & Office Bags",
+        "shortDescription": "Custom branded bags for schools, institutions, and corporate use.",
+        "description": "High-quality custom branded backpacks, laptop bags, and tote bags for schools, corporate events, and promotional campaigns.",
+        "specifications": [
+            {
+                "label": "Material",
+                "value": "Polyester / Canvas / Non-woven"
+            },
+            {
+                "label": "Print",
+                "value": "Screen Print / Embroidery"
+            }
+        ],
+        "materials": [
+            "Polyester",
+            "Canvas"
+        ],
+        "image": "/images/products/bag.jpg",
+        "gallery": [
+            "/images/products/bag.jpg"
+        ],
+        "featured": false,
+        "price": null
+    },
+    {
+        "id": "clocks",
+        "slug": "clocks",
+        "categoryId": "promotional-items",
+        "name": "Clocks",
+        "shortDescription": "Branded wall and desk clocks for offices and corporate gifting.",
+        "description": "Custom branded wall clocks and desk clocks with your logo and brand imagery. Popular as corporate gifts, employee awards, and office decor.",
+        "specifications": [
+            {
+                "label": "Type",
+                "value": "Wall / Desk"
+            },
+            {
+                "label": "Face",
+                "value": "Full colour print"
+            },
+            {
+                "label": "Sizes",
+                "value": "Custom"
+            }
+        ],
+        "materials": [
+            "Plastic",
+            "MDF",
+            "Metal"
+        ],
+        "image": "/images/products/clock.jpg",
+        "gallery": [
+            "/images/products/clock.jpg"
+        ],
+        "featured": false,
+        "price": null
+    }
+]
