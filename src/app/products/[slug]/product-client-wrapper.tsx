@@ -4,13 +4,14 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, CheckCircle, ImageIcon, ShoppingCart, MessageSquare } from "lucide-react";
-import type { Product } from "@/lib/data";
+import type { Product, Category } from "@/lib/data";
 
 interface Props {
     product: Product;
+    category?: Category;
 }
 
-export default function ProductClientWrapper({ product }: Props) {
+export default function ProductClientWrapper({ product, category }: Props) {
     const [activeImage, setActiveImage] = useState<string | null>(null);
 
     const handlePlaceOrder = () => {
