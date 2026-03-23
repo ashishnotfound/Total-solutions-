@@ -16,6 +16,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import LoadingSpinner from "@/components/LoadingSpinner";
 import { toast } from "react-hot-toast";
 import ConfirmDialog from "@/components/ConfirmDialog";
+import ImageUpload from "@/components/ImageUpload";
+import { ImageStorageService, type GalleryImage } from "@/lib/supabase";
 
 interface GalleryFormData {
     title: string;
@@ -30,7 +32,7 @@ export default function AdminGallery() {
     const [items, setItems] = useState<GalleryItem[]>([]);
     const [loading, setLoading] = useState(true);
     const [searchQuery, setSearchQuery] = useState("");
-    const [activeFilter, setActiveFilter] = useState("all");
+    const [activeTab, setActiveTab] = useState<'single' | 'bulk'>('single');
 
     // Confirmation dialog state
     const [deleteConfirm, setDeleteConfirm] = useState<{ isOpen: boolean; id: string }>({
@@ -140,14 +142,46 @@ export default function AdminGallery() {
         }
     };
 
-    const filtered = items.filter(item => {
-        const matchesSearch = item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            item.category.toLowerCase().includes(searchQuery.toLowerCase());
-        const matchesFilter = activeFilter === "all" || item.category === activeFilter;
-        return matchesSearch && matchesFilter;
-    });
+    const handleBulkUploadComplete = async (uploadedImages: GalleryImage[]) => {
+        try {
+            // Convert uploaded images to gallery items format
+            const galleryItems = uploadedImages.map((image, index) => ({
+                title: image.name.replace(/\.[^/.]+$/, ""), // Remove file extension
+                category: "Printing", // Default category
+                type: "image" as const,
+                src: image.url,
+                thumbnail: image.url,
+                sort_order: items.length + index + 1,
+            }));
 
-    const categories = ["all", ...new Set(items.map(i => i.category))];
+            // Save each item to the database
+            const savePromises = galleryItems.map(async (item) => {
+                const res = await fetch("/api/admin/gallery", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify(item),
+                });
+                return res;
+            });
+
+            await Promise.all(savePromises);
+
+            // Refresh gallery items
+            const refreshed = await getGalleryItems();
+            setItems(refreshed);
+            
+            toast.success(`${uploadedImages.length} images added to gallery`);
+            setActiveTab('single'); // Switch back to single upload tab
+        } catch (error) {
+            console.error("Bulk upload save error", error);
+            toast.error("Failed to save uploaded images");
+        }
+    };
+
+    const filtered = items.filter(item => {
+        const matchesSearch = item.title.toLowerCase().includes(searchQuery.toLowerCase());
+        return matchesSearch;
+    });
 
     return (
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
@@ -156,7 +190,7 @@ export default function AdminGallery() {
                     <h1 style={{ fontSize: "2.2rem", fontWeight: 900, marginBottom: 8, letterSpacing: "-1px" }}>Media Gallery</h1>
                     <p style={{ color: "#64748b", fontSize: "1rem", fontWeight: 500 }}>Upload and manage your professional portfolio assets.</p>
                 </div>
-                <div style={{ display: "flex", gap: 12 }}>
+                <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
                     <div style={{ background: "white", padding: "8px 16px", borderRadius: 12, border: "1px solid #e2e8f0", display: "flex", alignItems: "center", gap: 8, width: 280 }}>
                         <Search size={16} style={{ color: "#94a3b8" }} />
                         <input
@@ -166,24 +200,80 @@ export default function AdminGallery() {
                             onChange={(e) => setSearchQuery(e.target.value)}
                         />
                     </div>
-                    <button onClick={handleOpenModal} className="btn btn-primary" style={{ borderRadius: 12, gap: 8 }}>
+                    <button onClick={handleOpenModal} className="btn btn-primary" style={{ borderRadius: 12, gap: 8, display: activeTab === 'single' ? 'flex' : 'none' }}>
                         <Plus size={18} /> Add Media
                     </button>
                 </div>
             </div>
 
+            {/* Tab Navigation */}
             <div style={{ display: "flex", gap: 8, background: "white", padding: 6, borderRadius: 14, border: "1px solid #f1f5f9", width: "fit-content", marginBottom: 32 }}>
-                {categories.map(cat => (
-                    <button
-                        key={cat}
-                        onClick={() => setActiveFilter(cat)}
-                        className={`btn btn-sm ${activeFilter === cat ? "btn-primary" : "btn-ghost"}`}
-                        style={{ borderRadius: 10, border: "none", background: activeFilter === cat ? "var(--primary)" : "transparent", color: activeFilter === cat ? "white" : "#64748b", textTransform: "capitalize" }}
-                    >
-                        {cat}
-                    </button>
-                ))}
+                <button
+                    onClick={() => setActiveTab('single')}
+                    style={{
+                        padding: "8px 16px",
+                        borderRadius: 10,
+                        border: "none",
+                        background: activeTab === 'single' ? "var(--primary)" : "transparent",
+                        color: activeTab === 'single' ? "white" : "#64748b",
+                        fontWeight: 600,
+                        fontSize: "0.85rem",
+                        cursor: "pointer",
+                        transition: "all 0.2s"
+                    }}
+                >
+                    <Plus size={16} style={{ display: "inline", marginRight: 6 }} />
+                    Single Upload
+                </button>
+                <button
+                    onClick={() => setActiveTab('bulk')}
+                    style={{
+                        padding: "8px 16px",
+                        borderRadius: 10,
+                        border: "none",
+                        background: activeTab === 'bulk' ? "var(--primary)" : "transparent",
+                        color: activeTab === 'bulk' ? "white" : "#64748b",
+                        fontWeight: 600,
+                        fontSize: "0.85rem",
+                        cursor: "pointer",
+                        transition: "all 0.2s"
+                    }}
+                >
+                    <Upload size={16} style={{ display: "inline", marginRight: 6 }} />
+                    Bulk Upload
+                </button>
             </div>
+
+            {/* Bulk Upload Section */}
+            <AnimatePresence mode="wait">
+                {activeTab === 'bulk' ? (
+                    <motion.div
+                        key="bulk"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -20 }}
+                        transition={{ duration: 0.3 }}
+                        style={{ marginBottom: 32 }}
+                    >
+                        <div style={{ background: "white", borderRadius: 24, padding: 40, border: "1px solid #f1f5f9" }}>
+                            <div style={{ textAlign: "center", marginBottom: 32 }}>
+                                <div style={{ width: 80, height: 80, borderRadius: "50%", background: "#f8fafc", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 16px" }}>
+                                    <Upload size={40} style={{ color: "var(--primary)" }} />
+                                </div>
+                                <h2 style={{ fontSize: "1.5rem", fontWeight: 800, color: "#1e293b", marginBottom: 8 }}>Bulk Image Upload</h2>
+                                <p style={{ color: "#64748b", fontSize: "0.95rem" }}>
+                                    Upload multiple images at once. All images will be added to the gallery with default settings.
+                                </p>
+                            </div>
+                            
+                            <ImageUpload 
+                                onUploadComplete={handleBulkUploadComplete}
+                                className="w-full"
+                            />
+                        </div>
+                    </motion.div>
+                ) : null}
+            </AnimatePresence>
 
             {loading ? (
                 <LoadingSpinner size={32} fullPage />
@@ -234,11 +324,6 @@ export default function AdminGallery() {
                                         /* eslint-disable-next-line @next/next/no-img-element */
                                         <img src={item.src} alt={item.title} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
                                     )}
-                                    <div style={{ position: "absolute", top: 12, left: 12 }}>
-                                        <span style={{ fontSize: "0.65rem", fontWeight: 800, background: "rgba(255,255,255,0.9)", color: "#1e293b", padding: "4px 10px", borderRadius: 100, border: "1px solid #e2e8f0" }}>
-                                            {item.category.toUpperCase()}
-                                        </span>
-                                    </div>
                                     <div style={{ position: "absolute", top: 12, right: 12, display: "flex", gap: 6 }}>
                                         <button onClick={() => setDeleteConfirm({ isOpen: true, id: item.id })} style={{ width: 32, height: 32, borderRadius: 10, background: "rgba(254, 226, 226, 0.9)", border: "none", color: "#dc2626", cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center", backdropFilter: "blur(4px)" }}><Trash2 size={14} /></button>
                                     </div>

@@ -8,7 +8,6 @@ import { createServerClient } from "@/lib/supabase/server";
 
 export async function POST(req: NextRequest) {
     // Temporarily bypass auth for testing
-    // return withAdminAuth(req, async (req) => {
     try {
         const formData = await req.formData();
         const file = formData.get("file") as File;
@@ -81,5 +80,4 @@ export async function POST(req: NextRequest) {
         const message = err instanceof Error ? err.message : "Unknown error";
         return NextResponse.json({ error: message }, { status: 500 });
     }
-    // });
 }

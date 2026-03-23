@@ -2,121 +2,156 @@
 
 > **"Let's print the brilliant life."**
 
-A modern, premium website with an admin dashboard for Total Solutions — a full-service printing and branding company based in Noida, Delhi NCR.
-
-## 🚀 Quick Start
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Open in browser
-http://localhost:3000
-```
-
-## 📂 Project Structure
-
-```
-src/
-├── app/
-│   ├── page.tsx              # Homepage
-│   ├── layout.tsx            # Root layout
-│   ├── globals.css           # Global styles & design tokens
-│   ├── services/page.tsx     # Services page
-│   ├── products/
-│   │   ├── page.tsx          # Products landing (3 categories)
-│   │   ├── [slug]/page.tsx   # Product detail page
-│   │   └── category/[slug]/page.tsx  # Category products grid
-│   ├── about/page.tsx        # About Us page
-│   ├── gallery/page.tsx      # Gallery with masonry grid & lightbox
-│   ├── reviews/page.tsx      # Customer reviews with submission
-│   ├── contact/page.tsx      # Contact / Get a Quote form
-│   └── admin/
-│       ├── layout.tsx        # Admin layout with auth
-│       ├── page.tsx          # Dashboard
-│       ├── products/page.tsx # Products CRUD
-│       ├── categories/page.tsx # Categories management
-│       ├── reviews/page.tsx  # Reviews moderation
-│       ├── gallery/page.tsx  # Gallery management
-│       ├── quotes/page.tsx   # Quote requests
-│       └── settings/page.tsx # Site settings
-├── components/
-│   ├── Navbar.tsx            # Responsive navbar
-│   ├── Footer.tsx            # Full footer
-│   └── ProductCard.tsx       # Reusable product card
-├── data/
-│   ├── products.json         # All products (46 items)
-│   ├── categories.json       # 3 product categories
-│   ├── reviews.json          # Sample approved reviews
-│   ├── gallery.json          # Gallery entries
-│   └── quotes.json           # Quote requests
-└── lib/
-    ├── constants.ts          # Site config, company info
-    └── data.ts               # Data access layer
-```
-
-## 🎨 Design System
-
-| Token        | Value    |
-| ------------ | -------- |
-| Primary      | `#1FA352` (Green)  |
-| Accent       | `#FF6B1A` (Orange) |
-| Base         | `#FFFFFF` (White)  |
-| Font         | Inter    |
-| Border Radius| 8–24px   |
-
-## 🔐 Admin Panel
-
-Access the admin panel at `/admin`.
-
-- **Default password:** `admin123` (change in `src/lib/constants.ts`)
-- Session-based auth (stored in `sessionStorage`)
-
-### Admin Modules
-
-| Module      | Description                              |
-| ----------- | ---------------------------------------- |
-| Dashboard   | Stats overview + quick actions           |
-| Products    | Search, filter, add/edit/delete products |
-| Categories  | Manage 3 product categories              |
-| Reviews     | Moderate reviews (approve/reject)        |
-| Gallery     | Upload and manage gallery media          |
-| Quotes      | Track quote status (New → Closed)        |
-| Settings    | Logo, contact info, colors               |
-
-## 📧 Email Submissions
-
-All Contact and Quote submissions are configured to email:
-**totalsolutionsnoida@gmail.com**
-
-Currently uses `mailto:` links. Add a backend email API (SendGrid, Resend, etc.) for production.
-
-## 🔮 Future Backend Integration
-
-The codebase is prepared for Supabase integration:
-- All data currently loaded from local JSON files
-- Data access functions in `src/lib/data.ts` can be swapped to Supabase queries
-- Look for `// TODO: Connect to Supabase` comments throughout the code
-
-## 🛠 Tech Stack
-
-- **Framework:** Next.js 15 (App Router)
-- **Styling:** Tailwind CSS + Custom CSS
-- **Animations:** Framer Motion
-- **Icons:** Lucide React
-- **Font:** Inter (Google Fonts)
-- **Language:** TypeScript
-
-## 📱 Responsive
-
-Fully responsive across desktop, tablet, and mobile devices.
+A modern, premium marketing site with a full-featured admin dashboard for **Total Solutions** — a full-service printing & branding company based in Noida, Delhi NCR.
 
 ---
 
-**Proprietor:** Meenakshi Kashyap  
-**Established:** 2016  
-**Office:** C-398, Sector 10, Noida – 201301, UP  
-**Registered:** A-175, GD Colony, Mayur Vihar Phase-III, Delhi – 110096
+## 🚀 Quick Start (Local Development)
+
+### 1) Install dependencies
+
+```bash
+npm install
+```
+
+### 2) Run the dev server
+
+```bash
+npm run dev
+```
+
+Open your browser at `http://localhost:3000`.
+
+### 3) Build & Preview
+
+```bash
+npm run build
+npm run start
+```
+
+---
+
+## ✅ What’s Included
+
+### 🌐 Public Site
+- Landing page with hero, services, and featured products
+- Full product catalog with category filtering
+- Gallery with masonry grid + lightbox
+- Customer review listing + submission form
+- Contact & Quote request forms
+
+### 🛠 Admin Dashboard
+- Secure admin login (session-based)
+- Products CRUD (create, read, update, delete)
+- Category management
+- Review moderation (approve/reject)
+- Gallery upload + management
+- Quote request tracking (New → Closed)
+- Site settings (logo, contact info, colors)
+
+### 🧩 Data Layer (Pluggable)
+- Currently backed by local JSON files under `src/data/`
+- Data access via `src/lib/data.ts` (designed to swap in Supabase, Firebase, or any API)
+
+---
+
+## 🗂 Project Structure
+
+```
+src/
+├── app/                     # Next.js App Router pages + routes
+│   ├── admin/               # Admin dashboard pages
+│   ├── api/                 # API route stubs (Supabase-ready)
+│   ├── products/            # Products catalog & details
+│   ├── gallery/             # Gallery pages + components
+│   ├── reviews/             # Reviews listing + form
+│   ├── contact/             # Contact / quote form
+│   ├── auth/                # Login page
+│   └── layout.tsx           # Root layout & metadata
+├── components/              # Shared UI components
+├── context/                 # React contexts (settings, auth)
+├── data/                    # Seed data (JSON for local mode)
+├── lib/                     # Helpers + data access layer
+│   ├── constants.ts         # Site config + defaults
+│   └── data.ts              # Data loader (JSON / Supabase)
+└── public/                  # Static assets (images, icons)
+```
+
+---
+
+## 🔐 Admin Panel (Local Access)
+
+### Default credentials
+- **Username:** `admin`
+- **Password:** `admin123` (change in `src/lib/constants.ts`)
+
+### Access
+Navigate to: `http://localhost:3000/admin`
+
+> 🔧 The admin session is stored in `sessionStorage`. For production, swap this for a proper auth provider (Supabase Auth, NextAuth, etc.).
+
+---
+
+## 🔄 Data & Backend Integration
+
+This project is designed to be easily wired up to a real backend:
+
+### Local JSON (default)
+- Data files live in `src/data/` (products, categories, reviews, gallery, quotes)
+- The app reads these via `src/lib/data.ts`
+
+### Supabase (planned)
+- `src/lib/supabase/*` contains sample Supabase client helpers
+- Search for `// TODO: Connect to Supabase` to find integration points
+
+### Email Submission
+Current implementation uses `mailto:` links for contact/quote messages.
+For production, replace with an API (SendGrid, Resend, SMTP) or serverless function.
+
+---
+
+## 🧰 Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + custom CSS
+- **Animation:** Framer Motion
+- **Icons:** Lucide React
+
+---
+
+## ✅ Deployment
+
+This project is ready for Vercel, Netlify, or any Next.js-compatible host.
+
+### Deploy to Vercel (recommended)
+1. Connect repository to Vercel
+2. Set build command: `npm run build`
+3. Set output directory: (default)
+
+---
+
+## 🎯 Customization
+
+### Update company info
+Edit `src/lib/constants.ts` to update:
+- company name
+- contact details
+- brand colors
+
+### Replace seed data
+Update JSON files in `src/data/` or hook in a real CMS / database.
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create a feature branch
+3. Open a pull request
+
+---
+
+## 📄 License
+
+This repository has no license specified (add one if you intend to open source it).
